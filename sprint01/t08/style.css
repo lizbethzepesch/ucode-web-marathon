@@ -1,0 +1,36 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin-top: 180px;
+  position: relative;
+  animation: 2s linear infinite alternate moving;
+}
+div:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  background: green;
+}
+body{
+    position: relative;
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+@keyframes moving {
+    from{
+        left: 0;
+    }
+    to{
+        left: 95vw;
+    }
+  }
+
+div:hover:before {
+    transition: 2s;
+    background-color: red;
+}

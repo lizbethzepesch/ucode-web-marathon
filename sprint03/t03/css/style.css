@@ -1,0 +1,78 @@
+
+.untermensch, .uebermensch{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+body{
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: #1c1f24;
+}
+
+h1.logo{
+    margin: 15px;
+}
+
+header{
+    color: #c53755;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: -5px -5px 10px 1px rgb(64, 61, 85), 5px 5px 10px 1px rgb(27, 27, 32);
+    flex-wrap: wrap row;
+}
+
+img{
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: -5px -5px 10px 1px rgb(40, 39, 46), 5px 5px 10px 1px rgb(6, 6, 8);
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1c1f24;
+    display: flex;
+    color: #c53755;
+    font-weight: bold;
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    box-shadow: -3px -3px 10px 1px rgb(40, 39, 46), 3px 3px 10px 1px rgb(6, 6, 8);
+}
+
+.uebermensch, .ueber, #rose_eats, #rose_sleeps, #pink_diamond, #fly, #fight, #sleepst, #eatst{
+    display: none;
+}
+
+button:hover{
+    
+    font-size: 2em;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px;
+
+}
+.werken{
+    color:#c53755;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 15px;
+}
+

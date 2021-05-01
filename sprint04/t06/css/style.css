@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+}
+
+
+label{
+    background: crimson;
+    position: absolute;
+    width: 200px;
+    border-radius: 13px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    line-height: 25px;
+
+}

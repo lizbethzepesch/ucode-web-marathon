@@ -1,0 +1,83 @@
+.card{
+    display: flex;
+    flex-direction: row wrap;
+    margin: 15px auto 0 auto ;
+    width: 90%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+img{
+    width:200px;
+    float: right;
+    margin: 15px;
+    border-radius: 10px;
+    position: inherit;
+
+}
+
+.Sweeney, .Shadows{
+    display: none;
+}
+
+.movie{
+    display: flex;
+    flex-direction: row;
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 30px;
+    padding: 5px;
+}
+
+.nameofmovie{
+    margin: 5px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+.Ocean{
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.actors{
+    margin: 10px 0 10px 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row ;
+}
+
+.actor{
+    border-radius: 10px;
+    background-color: firebrick;
+    color: floralwhite;
+    padding: 5px;
+    width: 70px;
+    margin: 0 10px 0 0px;
+}
+
+.name{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.date{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px 0 0;
+    width: 70%;
+}

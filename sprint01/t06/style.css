@@ -1,0 +1,83 @@
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+h1{
+    color: palevioletred;
+}
+h2{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    
+}
+.inpt{
+     display: none;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(161, 161, 161);
+    display: flex;
+
+    border: grey 1px solid;
+    border-radius: 30px;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+    height: 3em;
+    justify-content: center;
+}
+.checks1, .checks2, .checks3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+.inpt:checked + label{
+    background-color: rgb(21, 28, 63);
+    color: white;
+}
+button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 3em;
+    margin: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+button:hover{
+    transition: 2s;
+    background-color: rgb(21, 28, 63);
+}
+.inp, .in{
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.in{
+    width: 100%;
+    margin: 5px;
+}
+
+.inp{
+    width: 50%;
+    margin: 5px;
+}
+.inpu{
+    display: flex;
+    flex-wrap: row wrap;
+}
+input:checked + label::before{
+    content: "\2713";
+    margin: 5px;
+}

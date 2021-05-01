@@ -1,0 +1,42 @@
+.tb{
+    position: fixed;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
+
+.purple{
+    background-color: purple;
+}
+.red{
+    background-color: red;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+.h{
+    background-color: black;
+    color: white;
+}
+table{
+    border: 1px solid gray;
+}

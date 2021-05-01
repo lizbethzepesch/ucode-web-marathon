@@ -1,0 +1,19 @@
+input{
+    color: green;
+    padding: 0 10px;
+    height: 2em;
+}
+button{
+    color: green;
+}
+input{
+    width: 100%;
+}
+
+div{
+    display: flex;
+}
+
+input:hover, button:hover{
+    color: red;
+}

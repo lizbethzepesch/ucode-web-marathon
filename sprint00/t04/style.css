@@ -1,0 +1,56 @@
+.ca{
+    background:linear-gradient(#4568DC, #b06ab3);
+}
+.im{
+    background: linear-gradient(#e52d27, #b31217);
+}
+.bw{
+    background: linear-gradient(90deg, #000, #61045F);
+}
+.sm{
+    background: linear-gradient(#e52d27, #000);
+}
+#sm{
+    top:0;
+    left: 10px;
+}
+img{
+    height: 182px;
+    position: absolute;
+    bottom: 0;
+}
+
+#rectangle{
+    width: 270px;
+    height: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin: 25px 20px;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: right;
+    padding: 5px;
+    position: relative;
+    
+}
+.character{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.name_ch{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+}
+

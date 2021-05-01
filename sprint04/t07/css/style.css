@@ -1,0 +1,55 @@
+.temperature{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    color: rgb(0, 87, 128);
+
+}
+.date , h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
+    color: rgb(41, 44, 66);
+
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+h1{
+    color:rgb(27, 28, 32);
+}
+
+.img{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    margin: 3px auto 3px auto;
+    position: relative;
+}
+
+.weather{
+    flex-flow: row wrap;
+    display: flex;
+   
+    justify-content: space-evenly;
+    margin: 50px auto 0 auto;
+}
+.day {
+    margin: 5px;
+    width: 150px;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.today{
+    background-color: rgb(221, 240, 238);
+}

@@ -1,0 +1,77 @@
+h1{
+    background: linear-gradient(white, magenta);
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5em;
+    border: pink 3px groove;
+    font-weight: bold;
+    display: inline-block;
+    color: goldenrod;
+}
+
+html{
+    background: repeating-linear-gradient(red, orange, yellow, green, cyan, blue, magenta);
+}
+
+.hh{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(235, 100, 235);
+    margin: 5px 5px;
+} 
+
+label.hh1:hover,
+.hh2:hover,
+.hh3:hover{
+    background-color: magenta;
+    color: green;
+}
+
+.hh1, .hh2, .hh3{
+    display: flex;
+    flex-direction: row;
+
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: goldenrod;
+    width: 250px;
+    height: 3em;
+}
+
+.hh2, .hh3{
+    background-color: red;
+    color: rgb(235, 100, 235);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.hh2, .hh3{
+    display: none;
+    vertical-align: center;
+}
+
+.menu * {
+    padding: 0;
+    margin: 0;
+}
+
+div.hh:hover div.hh2,
+div.hh2:hover div.hh3 {
+    display: block;
+}
+
+div.hh2:hover div.hh3 {
+    transform: translate(100%, -37.5%);
+}
+
+.hh2:hover .hh, 
+.hh3:hover .hh {
+    vertical-align: center;
+    background-color: magenta;
+    color: green;
+}

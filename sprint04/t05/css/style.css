@@ -1,0 +1,39 @@
+.cube{
+    width: 50px;
+    height: 50px;
+    transform: rotate(30deg);
+}
+
+.cube1{
+    background-color: darkkhaki;
+
+}
+
+.cube2{
+    background-color: violet;
+}
+
+.cube3{
+    background-color: firebrick;
+}
+
+.cube4{
+    background-color:indigo;
+}
+
+.cube5{
+    background-color: dodgerblue;
+}
+
+.cube6{
+    background-color: olivedrab;
+}
+
+
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}

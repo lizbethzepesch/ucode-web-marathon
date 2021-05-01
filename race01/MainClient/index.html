@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/script.js" defer></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Great Battle</title>
+</head>
+<body id="body">
+    <div id="first_page">
+        <h1>Great Battle</h1>
+   
+
+    <div id="choice">
+    <button class="button" onclick="signin()">Sign up</button><br>
+    <button class="button" onclick="login()">Log in</button><br>
+    </div>
+
+    <div id="signin">
+        <input type="text" placeholder="name" name="name" id = "usernameRegister"pattern="^[A-Za-z0-9]+$" required><br>
+        <select size="1"  id="hero" style ="width: 30%; background: none;color: rgb(255, 255, 255);">
+            <option selected value="3">Captain Marvel(lgbt.pngption>
+            <option  value="2">Captain America(Hydra)</option>
+            <option value="1">Penni Parker(Anime)</option>
+        </select><br>
+        <input type="password" placeholder="password" name="password"><br>
+        <input type="password" placeholder="confirm password" name="confirm" id = "passwordRegister"><br>
+
+        <button class="send button" id ="RegisterUser" >Start</button><br> <!-- menu() -->
+        
+
+    </div>
+
+    <div id="login">
+        <input type="text" placeholder="login" name="login" id="usernameLogin"pattern="^[A-Za-z\s]+$" required><br>
+        <input type="password" placeholder="password" id = "passwordLogin"name="password"><br>
+        <button class="send button" id="LoginUser">Start</button><br><!-- menu() -->
+    </div>
+</div>
+
+
+
+
+<div id="menu">
+    <div class="info" id="info">
+        <p>Your nickname: <span id="playerName"></span></p> 
+        <p>Your class: <span id="playerClass"></span></p> 
+        <p><img src="assets/others/avatar.jpeg" id="playerImg" class="avatar"></p>
+    
+    <h1>Choose the user to battle:<br>
+        <button class="send" id="showUsers" style="font-size: 0.5em; width: 200px">Show Users</button><br>
+    </h1>
+        <table id ="heroesList" >
+            <thead>
+                <tr>
+                    <th>Players List</th>
+                    <th>Invite</th>
+                </tr>
+            </thead>
+            <tbody id="testBody"></tbody>
+            <tr>
+                <th>test1</th>
+                <th><button class="send" onclick="game()">invite</button></th>
+            </tr>
+        </table>
+        
+</div>
+
+
+</div>
+
+
+<div id="game">
+    <img src="assets/others/background.jpeg" id="background">
+
+<div class="field">
+    <div class="team1">
+        <input class="class class1" type="image" src="./assets/teams/1.png" onclick="attacTheHero()">
+        <img src="assets/others/drop.png" class="hp">
+    <label class="hp1">30</label> 
+</div>
+    
+    
+    <div class="team2">
+        
+        <img src="./assets/teams/2.png" class="class">
+        <img src="assets/others/drop.png" class="hp">
+
+    <label class="hp2">30</label> </div>
+</div>
+
+ <div class="opponents_cards">
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card1">
+        <label id="card_mana_op_1">4</label><label id="card_attac_op_1">2</label><label id="card_lives_op_1">6</label></div>
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card2">
+        <label id="card_mana_op_2">4</label><label id="card_attac_op_2">2</label><label id="card_lives_op_2">6</label></div>
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card3">
+        <label id="card_mana_op_3">4</label><label id="card_attac_op_3">2</label><label id="card_lives_op_3">6</label></div>
+    </div>
+    <div class="opponents_cards2">
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card4">
+        <label id="card_mana_op_4">4</label><label id="card_attac_op_4">2</label><label id="card_lives_op_4">6</label></div>
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card5">
+        <label id="card_mana_op_5">4</label><label id="card_attac_op_5">2</label><label id="card_lives_op_5">6</label></div>
+        <div><input type='image' src="assets/cards/lgbt.png"  class="opponents" id="op_card6">
+        <label id="card_mana_op_6">4</label><label id="card_attac_op_6">2</label><label id="card_lives_op_6">6</label></div>
+    </div>
+     
+    <div class="cards">
+       <div class="card" id="card1"><input class="card_button" type="image" src="assets/nazi/2.png"  onclick="dropACard(1)"><label id="card_mana1">5</label><label id="card_attac1">3</label><label id="card_lives1">1</label></div>
+       <div class="card" id="card2"><input class="card_button" type="image" src="assets/nazi/6.png"  onclick="dropACard(2)"><label id="card_mana2">5</label><label id="card_attac2">3</label><label id="card_lives2">1</label></div>
+       <div class="card" id="card3"><input class="card_button" type="image" src="assets/nazi/1.png"  onclick="dropACard(3)"><label id="card_mana3">5</label><label id="card_attac3">3</label><label id="card_lives3">1</label></div>
+    </div>
+
+    <div class="cards2">
+        <div class="card" id="card4"><input class="card_button" type="image" src="assets/nazi/7.png"  onclick="dropACard(4)"><label id="card_mana4">5</label><label id="card_attac4">3</label><label id="card_lives4">1</label></div>
+        <div class="card" id="card5"><input class="card_button" type="image" src="assets/nazi/8.png"  onclick="dropACard(5)"><label id="card_mana5">5</label><label id="card_attac5">3</label><label id="card_lives5">1</label></div>
+        <div class="card" id="card6"><input class="card_button" type="image" src="assets/nazi/9.png"  onclick="dropACard(6)"><label id="card_mana6">5</label><label id="card_attac6">3</label><label id="card_lives6">1</label></div>
+     </div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

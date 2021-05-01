@@ -1,0 +1,39 @@
+.temperature{
+    font-family: 'Lato';
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+
+}
+.date{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(46, 118, 151);
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    
+    
+}
+img{
+
+    position: relative;
+}
+
+.weather{
+    display: flex;
+    width: min-content;
+}
+.day {
+    margin-left: 5px ;
+}
+.day:hover{
+    z-index: 4;
+    box-shadow: 0 0 10px;
+}

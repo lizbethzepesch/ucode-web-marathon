@@ -1,0 +1,33 @@
+img{
+    width: 70%;
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.arrow1{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 1%;
+
+}
+.arrow{
+    width: 10%;
+    top: 100px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.slide{
+    display: none;
+}
+
+.arrow2{  
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 1%;
+}
